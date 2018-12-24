@@ -1,0 +1,36 @@
+.breadcrumbs__list {
+    display: inline-block;
+}
+.breadcrumbs__item {
+    display: inline-block;
+    vertical-align: middle;
+  }
+.breadcrumbs__item-last {
+    font-style: italic;
+}
+.breadcrumbs__link {
+    display: inline-block;
+    vertical-align: middle;
+}
+  
+.breadcrumbs__link {
+    color: #ec1e79;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: "gothampro";
+    font-style: italic;
+}
+.breadcrumbs__link:after {
+    content: "/";
+    color: #000;
+    margin: 0 5px;
+}
+
+.breadcrumbs__item:last-child .breadcrumbs__link:after {
+    display: none;
+}
+  
+.breadcrumbs__link--active {
+    color: #000;
+}
+

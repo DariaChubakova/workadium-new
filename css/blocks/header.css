@@ -1,0 +1,93 @@
+.header {
+    background: #27273e;
+}
+.header__container {
+    position: relative;
+}
+.header__top {
+    display: flex;
+    min-height: 76px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__col {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.header__col--align-left {
+    justify-content: flex-start
+}
+.header__col--align-right {
+    justify-content: flex-end;
+}
+.header__logo {
+    display: block;
+}
+.logo__img {
+    max-width: 99px;
+    max-height: 51px;
+  }
+
+.contacts {
+    text-align: right;
+    font-style: normal;
+}
+.contacts__phone {
+    color: #ffffff;
+    font-family: "gothampro";
+    font-weight: bold;
+    font-size: 21px;
+    text-decoration: none;
+}
+.contacts__info-link {
+    color: rgba(236, 30, 121, 0.7);
+    font-family: OpenSans;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.contacts__info-link:hover {
+    color: #7faad4;
+}
+.shedule {
+    position: absolute;
+    display: inline-block;
+    z-index: 1;
+    top: 150%;
+    right: -99999px;
+    width: 190px;
+    padding: 18px 11px;
+    background: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    color: black;
+    text-align: left;
+} 
+.contacts__info:hover .shedule {
+    right: 0;
+    top: 70px;
+}
+.shedule:before {
+    content: "";
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-color: #ffffff;
+    transform: rotate(45deg);
+    position: absolute;
+    bottom: 84%;
+    right: 5px;
+}
+.shedule:after {
+    content: "";
+    display: block;
+    height: 10px;
+    width: 100%;
+    position: absolute;
+    bottom: 100%;
+}
+.shedule__graph {
+    color: #ec1e79;
+    font-weight: bold; 
+}

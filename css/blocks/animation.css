@@ -1,0 +1,21 @@
+@keyframes visual {
+    0% {
+        opacity: 1;
+    }
+
+    25% {
+        transform: rotate(-15deg) scale(.9);
+    }
+
+    50% {
+        transform: rotate(0deg) scale(1);
+    }
+
+    75% {
+        transform: rotate(5deg) scale(.9);
+    }
+
+    100% {
+        transform: rotate(0deg) scale(1);
+    }
+} 

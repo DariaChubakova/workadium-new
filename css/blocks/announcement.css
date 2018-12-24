@@ -1,0 +1,24 @@
+.announcement {
+    display: block;
+    background-color: #27273e;
+    box-sizing: border-box;
+    width: 100%;
+    background-image: url(../../img/banner/pattern\ \(1\).png);
+    background-repeat: round;
+ }                                                                                                                            
+
+strong {
+        color: #ec1e79;
+        font-weight: bold;
+    }
+.announcement__text {
+    padding: 20px;
+    text-align: center;
+    font-family: "gothampro";
+    font-size: 18px;
+    color: #ffffff;
+    vertical-align: middle;
+    font-weight: 300;
+    margin: 0 auto;
+    line-height: 30px;
+}

@@ -1,0 +1,99 @@
+footer {
+    position: relative;
+    min-height: 76px;
+    bottom: 0;
+    background: #27273e;
+    font-family: "gothampro";
+}
+.container--footer {
+    min-height: 76px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.signature {
+    position: relative;
+    display: inline-block;
+    height: 48px;
+    width: 350px;
+    color: #ffffff;
+    
+}
+.footer__logo {
+    display: inline-block;
+    position: relative;
+}
+.socials {
+    display: inline-block;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 54px;
+}
+.socials__title {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 9px;
+}
+.socials__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.socials__item {
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.socials__item:hover {
+    background: #ec1e79;
+}
+.socials__item-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+
+}
+.socials__item-link:before {
+    content: "";
+    display: block;
+    background-image: url(../../img/sprite_socials.png);
+    background-repeat: no-repeat;
+}
+.socials__item-link--vk:before {
+    width: 12px;
+    height: 7px;
+    background-position: -134px -10px;
+}
+.socials__item-link--facebook:before {
+    width: 6px;
+    height: 13px;
+    background-position: -10px -10px;
+
+}
+.socials__item-link--google:before {
+    width: 15px;
+    height: 9px;
+    background-position: -36px -10px;
+
+}
+.socials__item-link--twitter:before {
+    width: 11px;
+    height: 9px;
+    background-position: -103px -10px;
+
+}
+.socials__item-link--mail:before {
+    width: 12px;
+    height: 9px;
+    background-position: -71px -10px;
+
+}

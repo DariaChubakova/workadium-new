@@ -1,0 +1,27 @@
+.partners {
+    border: 1px solid #e8e9ed;
+}
+.headline--partners {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 27px;
+}
+.partners__list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.partners__item {
+    float: left;
+    position: relative;
+    margin-bottom: 40px;
+    max-height: 62px;
+    filter: grayscale(100%);
+    text-align: center;
+}
+.partners__item:hover {
+    content: "";
+    filter: grayscale(0%);
+}

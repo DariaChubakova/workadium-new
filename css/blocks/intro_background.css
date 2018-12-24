@@ -1,0 +1,66 @@
+.intro__wrapper {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.animation {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../img/banner/intro-background.png');
+    background-size: 100%;
+    background-color: rgba(236, 30, 121, 0.15);
+    background-blend-mode: overlay;
+  }
+  
+.animation__wrapper {
+    display: block;
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+}
+.animation__visual {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.button {
+        border: none;
+        background: transparent;
+        cursor: pointer;
+        outline: none;
+      }
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 182px;
+    height: 44px;
+    overflow: hidden;
+    text-transform: uppercase;
+    border: 3px solid #ec1e79;
+    color: #ec1e79;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.button:hover {
+    background-color: #ec1e79;
+    color:#fff;
+}
+.visual {
+    opacity: 1;
+    text-align: center;
+    display: block;
+    animation-name: visual;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: (1);
+}
+
